@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Taste</title>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3e2723;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('https://img.freepik.com/free-photo/fabric-texture_23-2147712315.jpg?t=st=1741405285~exp=1741408885~hmac=2ea64ff35866e2524c556eddc29573e83fc4c5fb4fb0fe2b7eaeef66d036aea3&w=1380') no-repeat center center/cover;
+    text-align: center;
+    padding: 50px 20px;
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+p {
+    margin-left: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+
+.coffee-list {
+    display: grid;
+    background-color: #ffffff;
+    
+  
+}
+
+.coffee-item {
+   
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.coffee-item img {
+    
+    margin-left: 20px;
+    object-fit: cover;
+    height: 300px; 
+    width: 100%;
+    border-radius: 0px;
+}
+
+h3 {
+  
+    margin-left: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: #794800;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    width: 150px;
+    position: absolute;
+    top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 40px;
+    color: #794800;
+}
+
+.about {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 500px) {
+    .menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+</style>
+<body>
+    <header>
+       
+        <h2>
+            Tuazon, Rovilyn G.
+        </h2>
+        <h1>COFFEE TASTE</h1>
+        <p1>Discover the rich flavors, bold aromas, and unique stories behind every cup. Whether you're a casual sipper or a true coffee connoisseur, we bring you the best brews, reviews, and brewing tips to elevate your coffee experience.</p1>
+        <br></br>
+        <p1>Slip. Savor. Explore.</p1>
+    </header>
+
+    <section class="coffee-list">
+        <div class="coffee-item">
+            <img src="https://img.freepik.com/free-photo/easter-coffee-decorations-still-life_23-2150244082.jpg?t=st=1741404397~exp=1741407997~hmac=0d0140b92e0479cc754ec4cc71f54c268ce5eb28f8d56af31cbfda94e5a31360&w=1380" alt="Espresso Coffee">
+            <h3>Espresso Coffee</h3>
+            <p>The foundation of many coffee drinks, known for its strong, rich flavor.</p>
+        </div>
+
+        <div class="coffee-item">
+            <img src="https://img.freepik.com/free-photo/closeup-frothy-chocolate-drink-glass-wooden-table_181624-28427.jpg?t=st=1741858044~exp=1741861644~hmac=f4d737d306b30124973f9f92417e089b9ea4fd9e40f86e363b88c68b1fc66759&w=740" alt="Cappuccino Coffee">
+            <h3>Cappuccino Coffee</h3>
+            <p>A creamy blend of espresso, steamed milk, and foam.</p>
+        </div>
+
+        <div class="coffee-item">
+            <img src="https://img.freepik.com/free-photo/cup-cappuccino-with-coffee-beans-table_141793-1050.jpg?t=st=1741858152~exp=1741861752~hmac=356e1cd18100abd16fd3bc5090cca4a36be7696516b228ff597c88a8303dd06b&w=740" alt="Latte Coffee">
+            <h3>Latte Coffee</h3>
+            <p>A smooth, milky coffee with a mild espresso kick.</p>
+        </div>
+
+        <div class="coffee-item">
+            <img src="https://img.freepik.com/free-photo/drink-leaf-fabric_23-2147885987.jpg?t=st=1741404832~exp=1741408432~hmac=e552a711b49c3f790b2ee5948826066086515abe16640d28a102c1b9c8f91fbf&w=1380" alt="Americano Coffee">
+            <h3>Americano Coffee</h3>
+            <p>Espresso diluted with hot water for a lighter taste.</p>
+        </div>
+
+        <div class="coffee-item">
+            <img src="https://img.freepik.com/free-photo/delicious-coffee-easter-decorations_23-2150249795.jpg?t=st=1741858339~exp=1741861939~hmac=f833a728e0072768c7ae825c090c7bb8590d974c8a3a88d548c6c0df1754350a&w=740" alt="Mocha Coffee">
+            <h3>Mocha Coffee</h3>
+            <p>A chocolatey coffee combining espresso, steamed milk, and cocoa.</p>
+        </div>
+
+        <div class="coffee-item">
+            <img src="https://img.freepik.com/free-photo/close-up-tasty-cappuccino-with-milk_23-2148414058.jpg?t=st=1741405072~exp=1741408672~hmac=0a4931f81cb24cb59f28b4919b6e2002925a88e44b41cbda1faa915ee3978ffa&w=1380" alt="Macchiato Coffee">
+            <h3>Macchiato Coffee</h3>
+            <p>Espresso "stained" with a small amount of milk or foam.</p>
+        </div>
+
+        <div class="coffee-item">
+            <img src="https://img.freepik.com/free-photo/coffee-drink-with-lots-whipped-cream_140725-3575.jpg?t=st=1741858460~exp=1741862060~hmac=f141e8410c9d54fc338024907cd42dec9c73599433e452716477e88ec40dc595&w=740" alt="Frappuccino Coffee">
+            <h3>Frappuccino Coffee</h3>
+            <p>A blended iced coffee drink available in flavors like Caramel, Mocha, and Java Chip.</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <h4>What is Coffee?</h4>
+        <p2>Coffee is a popular caffeinated beverage made from roasted coffee beans, which are the seeds of the Coffee plant. It is one of the most consumed drinks in the world, known for its rich aroma, bold flavor, and energizing effects.</p2>
+    </section>
+
+    <section class="about">
+        <h4>Where Does Coffee Come From?</h4>
+        <p2>Coffee beans are grown in tropical regions called the Coffee Belt, which includes countries like Brazil, Colombia, Ethiopia, and Vietnam.</p2>
+    </section>
+
+</body>
+</html>
